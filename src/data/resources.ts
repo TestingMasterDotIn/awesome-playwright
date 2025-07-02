@@ -32,7 +32,7 @@ export const playwrightResources: Resource[] = [
     url: "https://testingmaster.in/",
     category: "Blogs",
     tags: ["blogs"],
-    customImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&h=300&fit=crop&crop=edges"
+    customImage: "https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/testingmaster.png"
   },
   {
     id: "2",
@@ -41,6 +41,7 @@ export const playwrightResources: Resource[] = [
     url: "https://blog.martioli.com/",
     category: "Blogs",
     tags: ["blogs"],
+    customImage: "https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/martoli.png"
   },
   {
     id: "3",
@@ -49,7 +50,6 @@ export const playwrightResources: Resource[] = [
     url: "https://playwrightsolutions.com/",
     category: "Blogs",
     tags: ["blogs"],
-    customImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop&crop=edges"
   },
   {
     id: "4",
@@ -66,6 +66,7 @@ export const playwrightResources: Resource[] = [
     url: "https://egolessqa.com/posts/",
     category: "Blogs",
     tags: ["blogs"],
+    customImage:"https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/egolessQA.png"
   },
   {
     id: "6",
@@ -329,6 +330,7 @@ export const playwrightResources: Resource[] = [
     category: "Tools",
     tags: ["tools", "ai", "automation"],
     isGithub: true,
+    customImage:"https://avatars.githubusercontent.com/u/128322493?s=200&v=4"
   },
   {
     id: "36",
@@ -408,14 +410,7 @@ export const playwrightResources: Resource[] = [
     tags: ["tools", "coverage", "plugin"],
     isGithub: true,
   },
-  {
-    id: "45",
-    title: "Playwright Test for VSCode",
-    description: "Official Playwright test extension for VS Code with debugging and test running capabilities",
-    url: "https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright",
-    category: "Tools",
-    tags: ["tools", "vscode", "extension"],
-  },
+
   {
     id: "46",
     title: "Maestro for IntelliJ",
@@ -431,6 +426,7 @@ export const playwrightResources: Resource[] = [
     url: "https://danteukraine.github.io/playwright-elements",
     category: "Tools",
     tags: ["tools", "components", "page-object"],
+    customImage:"https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/playwright-elements.png"
   },
   {
     id: "48",

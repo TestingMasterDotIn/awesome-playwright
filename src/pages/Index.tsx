@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import ResourceCard from "@/components/ResourceCard";
 import SearchFilters from "@/components/SearchFilters";
 import { playwrightResources, categories } from "@/data/resources";
+import {  Globe, ExternalLink} from 'lucide-react';
 
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -88,20 +89,30 @@ const Index = () => {
         )}
       </section>
       
-      <footer className="border-t bg-card/50 backdrop-blur-sm">
-        <div className="container mx-auto px-6 py-8">
-          <div className="text-center">
-            <h3 className="font-semibold mb-2">Awesome Playwright</h3>
-            <p className="text-sm text-muted-foreground">
-              A community-driven collection of Playwright resources. 
-              <a 
-                href="https://github.com/microsoft/playwright" 
-                target="_blank" 
+      <footer className="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-4">
+            <div className="flex justify-center items-center space-x-4">
+              <p className="text-gray-600 dark:text-gray-400">
+                TestMart is part of the 
+              </p>
+              <a
+                href="https://testingmaster.in"
+                target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary hover:underline ml-1"
+                className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium"
+                data-testid="footer-testingmaster-link"
               >
-                Contribute on GitHub
+                <Globe className="h-4 w-4" />
+                <span>TestingMaster.in</span>
+                <ExternalLink className="h-3 w-3" />
               </a>
+              <p className="text-gray-600 dark:text-gray-400">
+                ecosystem
+              </p>
+            </div>
+            <p className="text-sm text-gray-500 dark:text-gray-500">
+              Built for testing professionals and automation engineers
             </p>
           </div>
         </div>
