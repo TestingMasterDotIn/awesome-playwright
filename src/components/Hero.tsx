@@ -58,7 +58,7 @@ const Hero = ({ onExploreResources, onGitHubRepos }: HeroProps) => {
               asChild
             >
               <a 
-                href="https://forms.google.com/your-form-link" 
+                href="https://forms.gle/j2NP1Jrcv38aZqjB6" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >

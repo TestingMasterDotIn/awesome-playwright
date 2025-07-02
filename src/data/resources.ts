@@ -7,6 +7,7 @@ export interface Resource {
   tags: string[];
   stars?: string | number;
   isGithub?: boolean;
+  customImage?: string; // Optional custom image URL - when provided, this image will be used instead of auto-generated thumbnails
 }
 
 export const categories = [
@@ -31,6 +32,7 @@ export const playwrightResources: Resource[] = [
     url: "https://testingmaster.in/",
     category: "Blogs",
     tags: ["blogs"],
+    customImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&h=300&fit=crop&crop=edges"
   },
   {
     id: "2",
@@ -47,6 +49,7 @@ export const playwrightResources: Resource[] = [
     url: "https://playwrightsolutions.com/",
     category: "Blogs",
     tags: ["blogs"],
+    customImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop&crop=edges"
   },
   {
     id: "4",
