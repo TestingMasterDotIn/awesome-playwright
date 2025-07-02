@@ -9,7 +9,7 @@ interface ResourceCardProps {
   url: string;
   category: string;
   tags: string[];
-  stars?: number;
+  stars?: string | number;
   isGithub?: boolean;
 }
 

@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef } from "react";
 import Hero from "@/components/Hero";
 import ResourceCard from "@/components/ResourceCard";
 import SearchFilters from "@/components/SearchFilters";
@@ -7,6 +7,25 @@ import { playwrightResources, categories } from "@/data/resources";
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const resourcesRef = useRef<HTMLElement>(null);
+
+  const scrollToResources = () => {
+    resourcesRef.current?.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'start'
+    });
+  };
+
+  const scrollToGitHubRepos = () => {
+    setSelectedCategory("GitHub Repos");
+    setSearchTerm("");
+    setTimeout(() => {
+      resourcesRef.current?.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }, 100);
+  };
 
   const filteredResources = useMemo(() => {
     return playwrightResources.filter((resource) => {
@@ -24,9 +43,12 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Hero />
+      <Hero 
+        onExploreResources={scrollToResources}
+        onGitHubRepos={scrollToGitHubRepos}
+      />
       
-      <section className="container mx-auto px-6 py-16">
+      <section ref={resourcesRef} className="container mx-auto px-6 py-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Discover Amazing Playwright Resources

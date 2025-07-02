@@ -1,10 +1,21 @@
 import { Button } from "@/components/ui/button";
-import { Search, Github, BookOpen, Zap } from "lucide-react";
+import { Search, Github, BookOpen, Zap, Plus } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle";
 import heroImage from "@/assets/playwright-hero.jpg";
 
-const Hero = () => {
+interface HeroProps {
+  onExploreResources?: () => void;
+  onGitHubRepos?: () => void;
+}
+
+const Hero = ({ onExploreResources, onGitHubRepos }: HeroProps) => {
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+      {/* Theme Toggle Button - positioned in top right */}
+      <div className="absolute top-6 right-6 z-20">
+        <ThemeToggle />
+      </div>
+      
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
         style={{ backgroundImage: `url(${heroImage})` }}
@@ -22,14 +33,40 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button variant="hero" size="lg" className="group">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="group"
+              onClick={onExploreResources}
+            >
               <Search className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
               Explore Resources
             </Button>
-            <Button variant="outline" size="lg" className="group">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="group"
+              onClick={onGitHubRepos}
+            >
               <Github className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
               GitHub Repos
             </Button>
+            <Button 
+              variant="secondary" 
+              size="lg" 
+              className="group"
+              asChild
+            >
+              <a 
+                href="https://forms.google.com/your-form-link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Plus className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                Add Your Resource
+              </a>
+            </Button>
+
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
