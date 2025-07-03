@@ -3,12 +3,16 @@ import Hero from "@/components/Hero";
 import ResourceCard from "@/components/ResourceCard";
 import SearchFilters from "@/components/SearchFilters";
 import { playwrightResources, categories } from "@/data/resources";
+import { shuffleArray } from "@/lib/shuffle";
 import {  Globe, ExternalLink} from 'lucide-react';
 
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
   const resourcesRef = useRef<HTMLElement>(null);
+
+  // Shuffle resources once when component mounts
+  const shuffledResources = useMemo(() => shuffleArray(playwrightResources), []);
 
   const scrollToResources = () => {
     resourcesRef.current?.scrollIntoView({ 
@@ -29,7 +33,7 @@ const Index = () => {
   };
 
   const filteredResources = useMemo(() => {
-    return playwrightResources.filter((resource) => {
+    return shuffledResources.filter((resource) => {
       const matchesSearch = 
         resource.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         resource.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -40,7 +44,7 @@ const Index = () => {
       
       return matchesSearch && matchesCategory;
     });
-  }, [searchTerm, selectedCategory]);
+  }, [shuffledResources, searchTerm, selectedCategory]);
 
   return (
     <div className="min-h-screen bg-background">
