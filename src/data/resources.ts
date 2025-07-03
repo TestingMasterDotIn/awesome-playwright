@@ -630,6 +630,15 @@ export const playwrightResources: Resource[] = [
     category: "Tools",
     tags: ["Tools", "API", "Plugin"],
     isGithub: true,
+  },
+  {
+    id: "71",
+    title: "Playwright Automation Framework",
+    description: "A Sample Framework for UI and API with TS",
+    url: "https://github.com/TestingMasterDotIn/Playwright_UiAndAPI",
+    category: "Sample Frameworks",
+    tags: ["Sample Frameworks", "UI", "API"],
+    isGithub: true,
   }
 
   
