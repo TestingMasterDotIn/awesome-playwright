@@ -737,6 +737,15 @@ export const playwrightResources: Resource[] = [
     tags: ["Playwright", "Community", "Discord"],
 
     
+  },
+  {
+    id: "84",
+    title: "PW Framework Step By Step",
+    description: "A step-by-step guide to building a Playwright framework with best practices",
+    url: "https://github.com/idavidov13/PW-Framework-Step-By-Step",
+    category: "Sample Frameworks",
+    tags: ["Sample Frameworks", "Playwright", "Community"],
+    isGithub: true,
   }
 
   
