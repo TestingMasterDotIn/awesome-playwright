@@ -15,9 +15,6 @@ export const categories = [
   "Blogs",
   "Tools", 
   "Sample Frameworks",
-  "NewsLetters",
-  "MeetUps",
-  "Live Streams",
   "Youtube Channels",
   "Premium Courses",
   "Integrations",
@@ -639,6 +636,22 @@ export const playwrightResources: Resource[] = [
     category: "Sample Frameworks",
     tags: ["Sample Frameworks", "UI", "API"],
     isGithub: true,
+  },
+  {
+    id: "72",
+    title: "Checkly",
+    description: "Test and monitor your apps and APIs at scale! ",
+    url: "https://www.youtube.com/@ChecklyHQ",
+    category: "Youtube Channels",
+    tags: ["Youtube", "Playwright", "Community"],
+  },
+  {
+    id: "73",
+    title: "Playwright",
+    description: "Official Playwright YouTube channel",
+    url: "https://www.youtube.com/@Playwrightdev",
+    category: "Youtube Channels",
+    tags: ["Youtube", "Playwright", "Community"],
   }
 
   
