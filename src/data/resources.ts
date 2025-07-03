@@ -19,7 +19,8 @@ export const categories = [
   "Premium Courses",
   "Integrations",
   "Reporters",
-  "Playwright Official"
+  "Playwright Official",
+  "AI/MCP"
 ];
 
 export const playwrightResources: Resource[] = [
@@ -265,7 +266,7 @@ export const playwrightResources: Resource[] = [
     title: "cucumber-playwright",
     description: "A starter repo for writing E2E tests based on Cucumber with Playwright using TypeScript",
     url: "https://github.com/Tallyb/cucumber-playwright",
-    category: "Integrations",
+    category: "Sample Frameworks",
     tags: ["integrations", "cucumber", "bdd"],
     isGithub: true,
   },
@@ -740,14 +741,59 @@ export const playwrightResources: Resource[] = [
   },
   {
     id: "84",
+    title: "Playwright MCP",
+    description: "Playwright MCP (Model-based Conformance Protocol) is a framework for building and running model-based tests with Playwright",
+    url: "https://github.com/microsoft/playwright-mcp",
+    category: "AI/MCP",
+    tags: ["AI", "MCP", "Playwright"],
+    isGithub: true,
+  },
+  {
+    id: "85",
     title: "PW Framework Step By Step",
     description: "A step-by-step guide to building a Playwright framework with best practices",
     url: "https://github.com/idavidov13/PW-Framework-Step-By-Step",
     category: "Sample Frameworks",
     tags: ["Sample Frameworks", "Playwright", "Community"],
     isGithub: true,
-  }
+  },
 
-  
+    {
+    id: "86",
+    title: "MCP Playwright By Execute Automation",
+    description: "A framework for building and running model-based tests with Playwright",
+    url: "https://github.com/executeautomation/mcp-playwright",
+    category: "AI/MCP",
+    tags: ["AI", "MCP", "Playwright"],
+    isGithub: true,
+  },
+  {
+    id: "87",
+    title: "Scrapy Playwright",
+    description: "A Scrapy plugin that integrates Playwright for web scraping",
+    url: "https://github.com/scrapy-plugins/scrapy-playwright",
+    category: "Sample Frameworks",
+    tags: ["Sample Frameworks", "Scrapy", "Web Scraping"],
+    isGithub: true,
+  },
+  {
+    id: "88",
+    title: "Playwright Microsoft Teams Reporter",
+    description: "A Playwright reporter that sends test results to Microsoft Teams",
+    url: "https://github.com/playwright-community/playwright-msteams-reporter",
+    category: "Reporters",
+    tags: ["Reporters", "Playwright", "Microsoft Teams"],
+    isGithub: true,
+  },
+  {
+    //https://github.com/vitalets/playwright-bdd
+    id: "89",
+    title: "Playwright BDD",
+    description: "BDD testing with Playwright runner and CucumberJS integration",
+    url: "https://github.com/vitalets/playwright-bdd",
+    category: "Integrations",
+    tags: ["Integrations", "Playwright", "BDD"],
+    isGithub: true,
+  }
 ];
 

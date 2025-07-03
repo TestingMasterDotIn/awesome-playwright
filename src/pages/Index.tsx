@@ -1,7 +1,8 @@
-import { useState, useMemo, useRef } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import Hero from "@/components/Hero";
 import ResourceCard from "@/components/ResourceCard";
 import SearchFilters from "@/components/SearchFilters";
+import TestingMasterFlyer from "@/components/TestingMasterFlyer";
 import { playwrightResources, categories } from "@/data/resources";
 import { shuffleArray } from "@/lib/shuffle";
 import {  Globe, ExternalLink} from 'lucide-react';
@@ -9,10 +10,24 @@ import {  Globe, ExternalLink} from 'lucide-react';
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [showFlyer, setShowFlyer] = useState(false);
   const resourcesRef = useRef<HTMLElement>(null);
 
   // Shuffle resources once when component mounts
   const shuffledResources = useMemo(() => shuffleArray(playwrightResources), []);
+
+  // Show flyer after 10 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowFlyer(true);
+    }, 10000); // 10 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleCloseFlyer = () => {
+    setShowFlyer(false);
+  };
 
   const scrollToResources = () => {
     resourcesRef.current?.scrollIntoView({ 
@@ -121,6 +136,9 @@ const Index = () => {
           </div>
         </div>
       </footer>
+      
+      {/* TestingMaster Flyer */}
+      {showFlyer && <TestingMasterFlyer onClose={handleCloseFlyer} />}
     </div>
   );
 };
