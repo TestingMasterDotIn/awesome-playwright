@@ -652,6 +652,39 @@ export const playwrightResources: Resource[] = [
     url: "https://www.youtube.com/@Playwrightdev",
     category: "Youtube Channels",
     tags: ["Youtube", "Playwright", "Community"],
+  },
+  {
+    //https://www.linkedin.com/learning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios/level-up-your-playwright-skills-complex-scenarios-simplified
+    id: "74",
+    title: "Playwright Essential Training: Abstractions, Fixtures, and Complex Scenarios",
+    description: "Level up your Playwright skills with complex scenarios simplified",
+    url: "https://www.linkedin.com/learning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios/level-up-your-playwright-skills-complex-scenarios-simplified",
+    category: "Premium Courses",
+    tags: ["Premium Courses", "Playwright", "Community"], 
+  },
+  {
+    id: "75",
+    title: "Learning Playwright",
+    description: "Unlock the future of test automation with Playwright",
+    url: "https://www.linkedin.com/learning/learning-playwright/unlock-the-future-of-test-automation-with-playwright",
+    category: "Premium Courses",
+    tags: ["Premium Courses", "Playwright", "Community"],
+  },
+  {
+    id: "76",
+    title: "Playwright Design Patterns",  
+    description: "Learn how to use Playwright design patterns to write better tests",
+    url: "https://www.linkedin.com/learning/playwright-design-patterns/welcome",
+    category: "Premium Courses",
+    tags: ["Premium Courses", "Playwright", "Community"],
+  },
+  {
+    id: "77",
+    title: "Advanced Playwright Techniques: Optimizing Speed, Stability, and Cloud Testing",
+    description: "Master advanced Playwright techniques for faster, more stable tests and cloud testing",
+    url: "https://www.linkedin.com/learning/advanced-playwright-techniques-optimimizing-speed-stability-and-cloud-testing/advanced-playwright-techniques",
+    category: "Premium Courses",
+    tags: ["Premium Courses", "Playwright", "Community"], 
   }
 
   
