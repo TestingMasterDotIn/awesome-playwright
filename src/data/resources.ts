@@ -18,7 +18,8 @@ export const categories = [
   "Youtube Channels",
   "Premium Courses",
   "Integrations",
-  "Reporters"
+  "Reporters",
+  "Playwright Official"
 ];
 
 export const playwrightResources: Resource[] = [
@@ -344,6 +345,7 @@ export const playwrightResources: Resource[] = [
     url: "https://try.playwright.tech",
     category: "Tools",
     tags: ["tools", "playground", "interactive"],
+    customImage:"https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/try-playwright.png"
   },
   {
     id: "38",
@@ -693,6 +695,48 @@ export const playwrightResources: Resource[] = [
     url: "https://www.test-shift.com/",
     category: "Blogs",
     tags: ["Blogs", "Playwright", "Community"],
+  },
+  {
+    id: "79",
+    title: "Playwright Official",
+    description: "Official Playwright documentation and resources",
+    url: "https://playwright.dev/docs/intro",
+    category: "Playwright Official",
+    tags: ["Playwright", "Documentation", "Official"],
+  },
+  {
+    id: "80",
+    title: "Playwright Samples",
+    description: "Official Playwright samples and examples from Microsoft",
+    url: "https://learn.microsoft.com/en-us/samples/browse/?products=playwright",
+    category: "Playwright Official",  
+    tags: ["Playwright", "Samples", "Official"],
+  },
+  {
+    id: "81",
+    title: "Build with Playwright from Microsoft Learn",
+    description: "Learn how to build applications with Playwright",
+    url: "https://learn.microsoft.com/en-us/training/modules/build-with-playwright/",
+    category: "Playwright Official",
+    tags: ["Playwright", "Building", "Official"],
+  },
+  {
+    id: "82",
+    title: "Playwright on Dev.to",
+    description: "Community-driven articles and tutorials on Playwright",
+    url: "https://dev.to/playwright",
+    category: "Playwright Official",
+    tags: ["Blogs", "Playwright", "Community"],
+  },
+  {
+    id: "83",
+    title: "Playwright Discord Community",
+    description: "Join the official Playwright Discord community for discussions, support, and collaboration",
+    url: "https://discord.com/servers/playwright-807756831384403968",
+    category: "Playwright Official",
+    tags: ["Playwright", "Community", "Discord"],
+
+    
   }
 
   
