@@ -685,6 +685,14 @@ export const playwrightResources: Resource[] = [
     url: "https://www.linkedin.com/learning/advanced-playwright-techniques-optimimizing-speed-stability-and-cloud-testing/advanced-playwright-techniques",
     category: "Premium Courses",
     tags: ["Premium Courses", "Playwright", "Community"], 
+  },
+  {
+    id: "78",
+    title: "Test Shift",
+    description: "Automation That Builds. Not Burns",
+    url: "https://www.test-shift.com/",
+    category: "Blogs",
+    tags: ["Blogs", "Playwright", "Community"],
   }
 
   
