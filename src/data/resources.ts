@@ -612,7 +612,26 @@ export const playwrightResources: Resource[] = [
     url: "https://www.checklyhq.com/learn/playwright/",
     category: "Blogs",
     tags: ["blogs", "tutorials", "learning"],
+  },
+    {
+    id: "69",
+    title: "PwAPI Plugin",
+    description: "Comprehensive Playwright learning resource with tutorials and best practices from Checkly",
+    url: "https://github.com/sclavijosuero/pw-api-plugin",
+    category: "Tools",
+    tags: ["Tools", "API", "Plugin"],
+    isGithub: true,
+  },
+  {
+    id: "70",
+    title: "Playwrihght Ajv Schema Validator",
+    description: "A Playwright plugin for API schema validation against plain JSON schemas",
+    url: "https://github.com/sclavijosuero/playwright-ajv-schema-validator",
+    category: "Tools",
+    tags: ["Tools", "API", "Plugin"],
+    isGithub: true,
   }
+
   
 ];
 
