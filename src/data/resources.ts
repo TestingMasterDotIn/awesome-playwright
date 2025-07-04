@@ -616,7 +616,7 @@ export const playwrightResources: Resource[] = [
     {
     id: "69",
     title: "PwAPI Plugin",
-    description: "Comprehensive Playwright learning resource with tutorials and best practices from Checkly",
+    description: "Playwright Plugin for Comprehensive API Testing and presenting Results in User Friendly Manner.",
     url: "https://github.com/sclavijosuero/pw-api-plugin",
     category: "Tools",
     tags: ["Tools", "API", "Plugin"],
@@ -794,6 +794,15 @@ export const playwrightResources: Resource[] = [
     category: "Integrations",
     tags: ["Integrations", "Playwright", "BDD"],
     isGithub: true,
+  },
+{
+   
+    id: "90",
+    title: "Artem Bondar",
+    description: "Playwright with TS by Artem Bondar",
+    url: "https://youtube.com/playlist?list=PL4a2-SrtFTviZQZiBiZD3cArnKjSDOMLy&si=YWvVAfWwvxPjFcBZ",
+    category: "Youtube Channels",
+    tags: ["Youtube Channels"]
   }
 ];
 
