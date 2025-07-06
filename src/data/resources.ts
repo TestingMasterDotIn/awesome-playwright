@@ -803,6 +803,46 @@ export const playwrightResources: Resource[] = [
     url: "https://youtube.com/playlist?list=PL4a2-SrtFTviZQZiBiZD3cArnKjSDOMLy&si=YWvVAfWwvxPjFcBZ",
     category: "Youtube Channels",
     tags: ["Youtube Channels"]
+  },
+  {
+    id: "91",
+    title: "Elio Struyf",
+    description: "Playwright Articles By Elio Struyf",
+    url: "https://www.eliostruyf.com/search/?q=playwright",
+    category: "Blogs",
+    tags: ["Blogs"]
+  },
+  {
+    id: "92",
+    title: "GitHub Actions Reporter",
+    description: "A Playwright reporter for GitHub Actions that creates annotations and summaries",
+    url: "https://www.npmjs.com/package/@estruyf/github-actions-reporter",
+    category: "Reporters",
+    tags: ["Reporters", "GitHub Actions", "CI/CD"]
+  },
+  {
+    id: "93",
+    title: "Playwright Mail Reporter",
+    description: "A Playwright reporter that sends test results via email",
+    url: "https://www.npmjs.com/package/playwright-mail-reporter",
+    category: "Reporters",
+    tags: ["Reporters", "Email", "Notifications"]
+  },
+  {
+    id: "94",
+    title: "Playwright M365 Helpers",
+    description: "Helper utilities for testing Microsoft 365 applications with Playwright",
+    url: "https://www.npmjs.com/package/playwright-m365-helpers",
+    category: "Tools",
+    tags: ["Tools", "Microsoft 365", "Helpers"]
+  },
+  {
+    id: "95",
+    title: "Playwright Issue Creator",
+    description: "GitHub Action that automatically creates issues based on Playwright test failures",
+    url: "https://github.com/marketplace/actions/playwright-issue-creator",
+    category: "Tools",
+    tags: ["Tools", "GitHub Actions", "Issue Management"]
   }
 ];
 
