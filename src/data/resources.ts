@@ -13,39 +13,44 @@ export interface Resource {
 export const categories = [
   "All",
   "Blogs",
-  "Tools", 
+  "Tools",
   "Sample Frameworks",
   "Youtube Channels",
   "Premium Courses",
   "Integrations",
   "Reporters",
   "Playwright Official",
-  "AI/MCP"
+  "AI/MCP",
 ];
 
 export const playwrightResources: Resource[] = [
   {
     id: "1",
     title: "TestingMaster.in",
-    description: "Contains Articles about Playwright, Selenium, Cypress, and other testing tools. It also has a collection of learning Paths.",
+    description:
+      "Contains Articles about Playwright, Selenium, Cypress, and other testing tools. It also has a collection of learning Paths.",
     url: "https://testingmaster.in/",
     category: "Blogs",
     tags: ["blogs"],
-    customImage: "https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/testingmaster.png"
+    customImage:
+      "https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/testingmaster.png",
   },
   {
     id: "2",
     title: "blog.martioli.com",
-    description: "A blog dedicated to Playwright with tutorials, tips, and advanced usage patterns.",
+    description:
+      "A blog dedicated to Playwright with tutorials, tips, and advanced usage patterns.",
     url: "https://blog.martioli.com/",
     category: "Blogs",
     tags: ["blogs"],
-    customImage: "https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/martoli.png"
+    customImage:
+      "https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/martoli.png",
   },
   {
     id: "3",
     title: "Playwright Solutions.com",
-    description: "Curated Selection of Playwright Automated Test Problems and Solutions",
+    description:
+      "Curated Selection of Playwright Automated Test Problems and Solutions",
     url: "https://playwrightsolutions.com/",
     category: "Blogs",
     tags: ["blogs"],
@@ -53,7 +58,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "4",
     title: "Testomat.io - Playwright Articles",
-    description: "Playwright-related articles and guides from Testomat.io covering test automation best practices",
+    description:
+      "Playwright-related articles and guides from Testomat.io covering test automation best practices",
     url: "https://testomat.io/tag/playwright/",
     category: "Blogs",
     tags: ["blogs"],
@@ -61,16 +67,19 @@ export const playwrightResources: Resource[] = [
   {
     id: "5",
     title: "EgolessQA",
-    description: "Quality assurance blog with insights on testing practices and automation frameworks",
+    description:
+      "Quality assurance blog with insights on testing practices and automation frameworks",
     url: "https://egolessqa.com/posts/",
     category: "Blogs",
     tags: ["blogs"],
-    customImage:"https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/egolessQA.png"
+    customImage:
+      "https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/egolessQA.png",
   },
   {
     id: "6",
     title: "Egghead.io - Playwright Courses",
-    description: "Playwright courses and tutorials on Egghead.io for learning test automation",
+    description:
+      "Playwright courses and tutorials on Egghead.io for learning test automation",
     url: "https://egghead.io/q/playwright?q=Playwright",
     category: "Blogs",
     tags: ["tutorials"],
@@ -78,7 +87,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "7",
     title: "idavidov.eu",
-    description: "Comprehensive series on building and working with Playwright testing frameworks",
+    description:
+      "Comprehensive series on building and working with Playwright testing frameworks",
     url: "https://idavidov.eu/series/playwright-framework",
     category: "Blogs",
     tags: ["blogs", "framework"],
@@ -86,7 +96,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "8",
     title: "TestingPlus.me",
-    description: "Testing blog with articles on various testing tools and automation practices",
+    description:
+      "Testing blog with articles on various testing tools and automation practices",
     url: "https://testingplus.me/blog/",
     category: "Blogs",
     tags: ["blogs"],
@@ -94,7 +105,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "9",
     title: "The Green Report - Playwright",
-    description: "Playwright-focused articles and testing insights from The Green Report blog",
+    description:
+      "Playwright-focused articles and testing insights from The Green Report blog",
     url: "https://www.thegreenreport.blog/playwright?page=1",
     category: "Blogs",
     tags: ["blogs"],
@@ -102,7 +114,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "10",
     title: "Playwright-Typescript-Example",
-    description: "Comprehensive Playwright TypeScript example project with best practices and patterns",
+    description:
+      "Comprehensive Playwright TypeScript example project with best practices and patterns",
     url: "https://github.com/nirtal85/Playwright-Typescript-Example?tab=readme-ov-file",
     category: "Sample Frameworks",
     tags: ["github"],
@@ -111,7 +124,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "11",
     title: "Playwright Test Framework",
-    description: "Complete Playwright test framework implementation with examples and utilities",
+    description:
+      "Complete Playwright test framework implementation with examples and utilities",
     url: "https://github.com/iamcharankumar/playwright_test_framework",
     category: "Sample Frameworks",
     tags: ["github"],
@@ -120,7 +134,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "12",
     title: "Playwright Release Notes Examples",
-    description: "Examples and demonstrations of Playwright features from release notes",
+    description:
+      "Examples and demonstrations of Playwright features from release notes",
     url: "https://github.com/qa-gary-parker/playwright-release-notes-examples",
     category: "Sample Frameworks",
     tags: ["github"],
@@ -138,7 +153,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "14",
     title: "pwgo - Playwright Go",
-    description: "Multi-list interactive cli tool to run your Playwright suite.",
+    description:
+      "Multi-list interactive cli tool to run your Playwright suite.",
     url: "https://github.com/dennisbergevin/pwgo",
     category: "Tools",
     tags: ["tools"],
@@ -147,7 +163,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "15",
     title: "jest-playwright",
-    description: "Jest adapter for running Playwright tests with Jest framework integration",
+    description:
+      "Jest adapter for running Playwright tests with Jest framework integration",
     url: "https://github.com/playwright-community/jest-playwright/",
     category: "Integrations",
     tags: ["integrations", "jest"],
@@ -156,7 +173,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "16",
     title: "CodeceptJS",
-    description: "Supercharged End 2 End Testing Framework for Node.js with Playwright support",
+    description:
+      "Supercharged End 2 End Testing Framework for Node.js with Playwright support",
     url: "https://github.com/Codeception/CodeceptJS",
     category: "Integrations",
     tags: ["integrations", "framework"],
@@ -165,7 +183,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "17",
     title: "Chromium for Serverless platforms",
-    description: "Chromium binary for Serverless platforms with Playwright usage examples",
+    description:
+      "Chromium binary for Serverless platforms with Playwright usage examples",
     url: "https://github.com/Sparticuz/chromium?tab=readme-ov-file#usage-with-playwright",
     category: "Integrations",
     tags: ["integrations", "serverless"],
@@ -174,7 +193,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "18",
     title: "playwright-chrome-recorder",
-    description: "Export Playwright tests from Google Chrome DevTools' recordings programmatically",
+    description:
+      "Export Playwright tests from Google Chrome DevTools' recordings programmatically",
     url: "https://github.com/AndrewUsher/playwright-chrome-recorder",
     category: "Integrations",
     tags: ["integrations", "chrome", "recorder"],
@@ -183,7 +203,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "19",
     title: "Playwright Angular Schematic",
-    description: "Adds Playwright Test to your Angular project through Angular CLI schematics",
+    description:
+      "Adds Playwright Test to your Angular project through Angular CLI schematics",
     url: "https://github.com/playwright-community/playwright-ng-schematics",
     category: "Integrations",
     tags: ["integrations", "angular"],
@@ -192,7 +213,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "20",
     title: "Playwright Chrome Recorder Extension",
-    description: "Export DevTools Recordings as Playwright Tests directly from the DevTools Recorder Panel",
+    description:
+      "Export DevTools Recordings as Playwright Tests directly from the DevTools Recorder Panel",
     url: "https://github.com/AndrewUsher/playwright-recorder-extension",
     category: "Integrations",
     tags: ["integrations", "chrome", "extension"],
@@ -201,7 +223,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "21",
     title: "Playwright CRX",
-    description: "Playwright codegen as a chrome extension. Available in Chrome Web Store",
+    description:
+      "Playwright codegen as a chrome extension. Available in Chrome Web Store",
     url: "https://github.com/ruifigueira/playwright-crx",
     category: "Integrations",
     tags: ["integrations", "chrome", "extension"],
@@ -210,7 +233,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "22",
     title: "playwright-github-action",
-    description: "GitHub Action to install all the required dependencies for Playwright",
+    description:
+      "GitHub Action to install all the required dependencies for Playwright",
     url: "https://github.com/microsoft/playwright-github-action",
     category: "Integrations",
     tags: ["integrations", "github", "ci"],
@@ -219,7 +243,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "23",
     title: "playwright-pytest",
-    description: "Official Pytest plugin for using Playwright pages with fixtures",
+    description:
+      "Official Pytest plugin for using Playwright pages with fixtures",
     url: "https://github.com/microsoft/playwright-pytest/",
     category: "Integrations",
     tags: ["integrations", "pytest", "python"],
@@ -237,7 +262,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "25",
     title: "@axe-core/playwright",
-    description: "Official Axe integration with Playwright for accessibility testing",
+    description:
+      "Official Axe integration with Playwright for accessibility testing",
     url: "https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/README.md",
     category: "Integrations",
     tags: ["integrations", "accessibility", "axe"],
@@ -246,7 +272,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "26",
     title: "axe-playwright",
-    description: "Unofficial integration of Axe with Playwright for accessibility testing",
+    description:
+      "Unofficial integration of Axe with Playwright for accessibility testing",
     url: "https://github.com/abhinaba-ghosh/axe-playwright",
     category: "Integrations",
     tags: ["integrations", "accessibility", "axe"],
@@ -255,7 +282,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "27",
     title: "expect-axe-playwright",
-    description: "Expect matchers to perform Axe accessibility tests in your Playwright tests",
+    description:
+      "Expect matchers to perform Axe accessibility tests in your Playwright tests",
     url: "https://github.com/Widen/expect-axe-playwright",
     category: "Integrations",
     tags: ["integrations", "accessibility", "testing"],
@@ -264,7 +292,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "28",
     title: "cucumber-playwright",
-    description: "A starter repo for writing E2E tests based on Cucumber with Playwright using TypeScript",
+    description:
+      "A starter repo for writing E2E tests based on Cucumber with Playwright using TypeScript",
     url: "https://github.com/Tallyb/cucumber-playwright",
     category: "Sample Frameworks",
     tags: ["integrations", "cucumber", "bdd"],
@@ -273,7 +302,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "29",
     title: "artillery-engine-playwright",
-    description: "Load testing with Playwright using Artillery performance testing toolkit",
+    description:
+      "Load testing with Playwright using Artillery performance testing toolkit",
     url: "https://github.com/artilleryio/artillery/tree/main/packages/artillery-engine-playwright",
     category: "Integrations",
     tags: ["integrations", "load-testing", "performance"],
@@ -282,7 +312,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "30",
     title: "playwright-bdd",
-    description: "BDD testing with Playwright runner and CucumberJS integration",
+    description:
+      "BDD testing with Playwright runner and CucumberJS integration",
     url: "https://github.com/vitalets/playwright-bdd",
     category: "Integrations",
     tags: ["integrations", "bdd", "cucumber"],
@@ -291,7 +322,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "31",
     title: "Serenity/JS",
-    description: "Acceptance testing, reporting, and test integration framework for Playwright, implementing the Screenplay Pattern",
+    description:
+      "Acceptance testing, reporting, and test integration framework for Playwright, implementing the Screenplay Pattern",
     url: "https://serenity-js.org",
     category: "Integrations",
     tags: ["integrations", "framework", "screenplay"],
@@ -299,7 +331,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "32",
     title: "@guidepup/playwright",
-    description: "VoiceOver and NVDA screen reader driver integration for Playwright accessibility testing",
+    description:
+      "VoiceOver and NVDA screen reader driver integration for Playwright accessibility testing",
     url: "https://github.com/guidepup/guidepup-playwright",
     category: "Integrations",
     tags: ["integrations", "accessibility", "screen-reader"],
@@ -308,7 +341,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "33",
     title: "@appetize/playwright",
-    description: "Mobile tests for web or native apps on Appetize's virtual devices using Playwright Test Runner",
+    description:
+      "Mobile tests for web or native apps on Appetize's virtual devices using Playwright Test Runner",
     url: "https://docs.appetize.io/testing",
     category: "Integrations",
     tags: ["integrations", "mobile", "testing"],
@@ -316,7 +350,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "34",
     title: "appwright",
-    description: "Mobile tests using Appium with Playwright Test Runner for cross-platform mobile testing",
+    description:
+      "Mobile tests using Appium with Playwright Test Runner for cross-platform mobile testing",
     url: "https://www.npmjs.com/package/appwright",
     category: "Integrations",
     tags: ["integrations", "mobile", "appium"],
@@ -324,17 +359,19 @@ export const playwrightResources: Resource[] = [
   {
     id: "35",
     title: "automated-Playwright-UI-tests",
-    description: "Auto-generated, run & maintained with AI-assisted test case discovery",
+    description:
+      "Auto-generated, run & maintained with AI-assisted test case discovery",
     url: "https://github.com/OctoMind-dev",
     category: "Tools",
     tags: ["tools", "ai", "automation"],
     isGithub: true,
-    customImage:"https://avatars.githubusercontent.com/u/128322493?s=200&v=4"
+    customImage: "https://avatars.githubusercontent.com/u/128322493?s=200&v=4",
   },
   {
     id: "36",
     title: "Ask Playwright",
-    description: "Accurate answers to Playwright questions provided by LLM trained on the latest Playwright documentation",
+    description:
+      "Accurate answers to Playwright questions provided by LLM trained on the latest Playwright documentation",
     url: "https://ray.run/ask",
     category: "Tools",
     tags: ["tools", "ai", "documentation"],
@@ -342,16 +379,19 @@ export const playwrightResources: Resource[] = [
   {
     id: "37",
     title: "Try Playwright",
-    description: "Interactive playground for running Playwright tests in your browser",
+    description:
+      "Interactive playground for running Playwright tests in your browser",
     url: "https://try.playwright.tech",
     category: "Tools",
     tags: ["tools", "playground", "interactive"],
-    customImage:"https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/try-playwright.png"
+    customImage:
+      "https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/try-playwright.png",
   },
   {
     id: "38",
     title: "playwright-fluent",
-    description: "Fluent API Wrapper around Playwright for more readable and maintainable tests",
+    description:
+      "Fluent API Wrapper around Playwright for more readable and maintainable tests",
     url: "https://github.com/hdorgeval/playwright-fluent",
     category: "Tools",
     tags: ["tools", "fluent-api", "wrapper"],
@@ -360,7 +400,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "39",
     title: "TestingBot",
-    description: "Connect your Playwright tests with browsers in the Cloud for cross-browser testing",
+    description:
+      "Connect your Playwright tests with browsers in the Cloud for cross-browser testing",
     url: "https://testingbot.com",
     category: "Tools",
     tags: ["tools", "cloud", "cross-browser"],
@@ -368,7 +409,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "40",
     title: "expect-playwright",
-    description: "Expect utility matcher functions to simplify expect statements for Playwright Test or Jest Playwright",
+    description:
+      "Expect utility matcher functions to simplify expect statements for Playwright Test or Jest Playwright",
     url: "https://github.com/playwright-community/expect-playwright",
     category: "Tools",
     tags: ["tools", "expect", "matchers"],
@@ -377,7 +419,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "41",
     title: "eslint-plugin-playwright",
-    description: "ESLint plugin for your Playwright testing needs with best practice rules",
+    description:
+      "ESLint plugin for your Playwright testing needs with best practice rules",
     url: "https://github.com/playwright-community/eslint-plugin-playwright",
     category: "Tools",
     tags: ["tools", "eslint", "linting"],
@@ -386,7 +429,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "42",
     title: "Moon",
-    description: "Tools for executing Playwright tests in parallel in a Kubernetes cluster",
+    description:
+      "Tools for executing Playwright tests in parallel in a Kubernetes cluster",
     url: "https://github.com/aerokube/moon",
     category: "Tools",
     tags: ["tools", "kubernetes", "parallel"],
@@ -395,7 +439,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "43",
     title: "@bgotink/playwright-coverage",
-    description: "Report coverage on playwright tests using v8 coverage, without requiring any instrumentation",
+    description:
+      "Report coverage on playwright tests using v8 coverage, without requiring any instrumentation",
     url: "https://github.com/bgotink/playwright-coverage",
     category: "Tools",
     tags: ["tools", "coverage", "v8"],
@@ -404,7 +449,8 @@ export const playwrightResources: Resource[] = [
   {
     id: "44",
     title: "playwright-test-coverage",
-    description: "Plugin to collect code coverage from running Playwright tests",
+    description:
+      "Plugin to collect code coverage from running Playwright tests",
     url: "https://github.com/anishkny/playwright-test-coverage",
     category: "Tools",
     tags: ["tools", "coverage", "plugin"],
@@ -412,227 +458,253 @@ export const playwrightResources: Resource[] = [
   },
 
   {
-    id: "46",
+    id: "45",
     title: "Maestro for IntelliJ",
-    description: "Playwright plugin for IntelliJ IDEA with enhanced development features",
+    description:
+      "Playwright plugin for IntelliJ IDEA with enhanced development features",
     url: "https://plugins.jetbrains.com/plugin/18100-maestro",
     category: "Tools",
     tags: ["tools", "intellij", "plugin"],
   },
   {
-    id: "47",
+    id: "46",
     title: "playwright-elements",
-    description: "Playwright test extension for creation of reusable components with child elements and methods",
+    description:
+      "Playwright test extension for creation of reusable components with child elements and methods",
     url: "https://danteukraine.github.io/playwright-elements",
     category: "Tools",
     tags: ["tools", "components", "page-object"],
-    customImage:"https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/playwright-elements.png"
+    customImage:
+      "https://urfhxovqstekedmadafg.supabase.co/storage/v1/object/public/awesome-playwright/images/playwright-elements.png",
   },
   {
-    id: "48",
+    id: "47",
     title: "Playwright-cleanup",
-    description: "A Playwright cleanup tool that simplifies test cleanup by undoing changes to the testing environment",
+    description:
+      "A Playwright cleanup tool that simplifies test cleanup by undoing changes to the testing environment",
     url: "https://www.npmjs.com/package/playwright-cleanup",
     category: "Tools",
     tags: ["tools", "cleanup", "maintenance"],
   },
   {
-    id: "49",
+    id: "48",
     title: "Playwright-performance",
-    description: "Plugin to optimize speed and efficiency by measuring and analyzing performance of tested flows",
+    description:
+      "Plugin to optimize speed and efficiency by measuring and analyzing performance of tested flows",
     url: "https://www.npmjs.com/package/playwright-performance",
     category: "Tools",
     tags: ["tools", "performance", "optimization"],
   },
   {
-    id: "50",
+    id: "49",
     title: "playwright-python-language-injection",
-    description: "Language injection definitions for CSS/JS syntax highlighting when using python-playwright in PyCharm",
+    description:
+      "Language injection definitions for CSS/JS syntax highlighting when using python-playwright in PyCharm",
     url: "https://github.com/Mattwmaster58/playwright-python-language-injection",
     category: "Tools",
     tags: ["tools", "python", "pycharm"],
     isGithub: true,
   },
   {
-    id: "51",
+    id: "50",
     title: "playwright-ui5",
-    description: "Custom selector engine for SAP UI5 applications in Playwright",
+    description:
+      "Custom selector engine for SAP UI5 applications in Playwright",
     url: "https://github.com/detachhead/playwright-ui5",
     category: "Tools",
     tags: ["tools", "ui5", "selector"],
     isGithub: true,
   },
   {
-    id: "52",
+    id: "51",
     title: "playwright-xpath",
-    description: "Custom selector engine for XPath 2 and 3 expressions in Playwright",
+    description:
+      "Custom selector engine for XPath 2 and 3 expressions in Playwright",
     url: "https://github.com/detachhead/playwright-xpath",
     category: "Tools",
     tags: ["tools", "xpath", "selector"],
     isGithub: true,
   },
   {
-    id: "53",
+    id: "52",
     title: "ZeroStep",
-    description: "AI actions and assertions for Playwright to write tests in natural language",
+    description:
+      "AI actions and assertions for Playwright to write tests in natural language",
     url: "https://github.com/zerostep-ai/zerostep",
     category: "Tools",
     tags: ["tools", "ai", "natural-language"],
     isGithub: true,
   },
   {
-    id: "54",
+    id: "53",
     title: "POMWright",
-    description: "TypeScript framework for creating and maintaining Page Object Models with dynamic locator management",
+    description:
+      "TypeScript framework for creating and maintaining Page Object Models with dynamic locator management",
     url: "https://github.com/DyHex/POMWright",
     category: "Tools",
     tags: ["tools", "page-object", "typescript"],
     isGithub: true,
   },
   {
-    id: "55",
+    id: "54",
     title: "playwright-magic-steps",
-    description: "Auto-transform JavaScript comments into Playwright steps for better test readability",
+    description:
+      "Auto-transform JavaScript comments into Playwright steps for better test readability",
     url: "https://github.com/vitalets/playwright-magic-steps",
     category: "Tools",
     tags: ["tools", "steps", "comments"],
     isGithub: true,
   },
   {
-    id: "56",
+    id: "55",
     title: "playwright-network-cache",
-    description: "Speed up Playwright tests by caching network requests on the filesystem",
+    description:
+      "Speed up Playwright tests by caching network requests on the filesystem",
     url: "https://github.com/vitalets/playwright-network-cache",
     category: "Tools",
     tags: ["tools", "caching", "performance"],
     isGithub: true,
   },
   {
-    id: "57",
+    id: "56",
     title: "playwright-tesults-reporter",
-    description: "A library for uploading test results to Tesults from Playwright",
+    description:
+      "A library for uploading test results to Tesults from Playwright",
     url: "https://github.com/tesults/playwright-tesults-reporter",
     category: "Reporters",
     tags: ["reporters", "tesults", "results"],
     isGithub: true,
   },
   {
-    id: "58",
+    id: "57",
     title: "monocart-reporter",
-    description: "A playwright test reporter that shows suites/cases/steps in HTML grid format",
+    description:
+      "A playwright test reporter that shows suites/cases/steps in HTML grid format",
     url: "https://github.com/cenfun/monocart-reporter",
     category: "Reporters",
     tags: ["reporters", "html", "grid"],
     isGithub: true,
   },
   {
-    id: "59",
+    id: "58",
     title: "allure-playwright",
-    description: "Allure integration with Playwright Test framework for comprehensive test reporting",
+    description:
+      "Allure integration with Playwright Test framework for comprehensive test reporting",
     url: "https://github.com/allure-framework/allure-js/tree/master/packages/allure-playwright",
     category: "Reporters",
     tags: ["reporters", "allure", "framework"],
     isGithub: true,
   },
   {
-    id: "60",
+    id: "59",
     title: "playwright-xray",
-    description: "Playwright Xray Reporter to send test executions to Jira / Xray",
+    description:
+      "Playwright Xray Reporter to send test executions to Jira / Xray",
     url: "https://github.com/inluxc/playwright-xray",
     category: "Reporters",
     tags: ["reporters", "xray", "jira"],
     isGithub: true,
   },
   {
-    id: "61",
+    id: "60",
     title: "testomatio-reporter",
-    description: "Runs and sends test executions to TCMS testomatio, Jira / Linear / Azure DevOps task management",
+    description:
+      "Runs and sends test executions to TCMS testomatio, Jira / Linear / Azure DevOps task management",
     url: "https://github.com/testomatio/reporter",
     category: "Reporters",
     tags: ["reporters", "testomatio", "tcms"],
     isGithub: true,
   },
   {
-    id: "62",
+    id: "61",
     title: "currents-dev",
-    description: "A Cloud Dashboard to debug, troubleshoot and analyze parallel Playwright CI tests",
+    description:
+      "A Cloud Dashboard to debug, troubleshoot and analyze parallel Playwright CI tests",
     url: "https://currents.dev/",
     category: "Reporters",
     tags: ["reporters", "cloud", "dashboard"],
   },
   {
-    id: "63",
+    id: "62",
     title: "qase",
-    description: "Playwright Qase Reporter to send test executions to Qase test management system",
+    description:
+      "Playwright Qase Reporter to send test executions to Qase test management system",
     url: "https://github.com/qase-tms/qase-javascript/tree/master/qase-playwright",
     category: "Reporters",
     tags: ["reporters", "qase", "tms"],
     isGithub: true,
   },
   {
-    id: "64",
+    id: "63",
     title: "echoed",
-    description: "Makes tests observable by visualizing OpenTelemetry data in HTML reports",
+    description:
+      "Makes tests observable by visualizing OpenTelemetry data in HTML reports",
     url: "https://github.com/mrasu/echoed",
     category: "Reporters",
     tags: ["reporters", "opentelemetry", "observability"],
     isGithub: true,
   },
   {
-    id: "65",
+    id: "64",
     title: "playwright-slack-report",
-    description: "Publish your Playwright test results to your favorite Slack channel(s)",
+    description:
+      "Publish your Playwright test results to your favorite Slack channel(s)",
     url: "https://github.com/ryanrosello-og/playwright-slack-report",
     category: "Reporters",
     tags: ["reporters", "slack", "notifications"],
     isGithub: true,
   },
   {
-    id: "66",
+    id: "65",
     title: "TestCollab",
-    description: "Run Playwright scripts and populate results back into TestCollab test management tool",
+    description:
+      "Run Playwright scripts and populate results back into TestCollab test management tool",
     url: "https://github.com/TCSoftInc/playwright-integration",
     category: "Reporters",
     tags: ["reporters", "testcollab", "test-management"],
     isGithub: true,
   },
   {
-    id: "67",
+    id: "66",
     title: "INGenious Playwright Studio",
-    description: "provides an easy and simple way to create highly reliable automated tests",
+    description:
+      "provides an easy and simple way to create highly reliable automated tests",
     url: "https://github.com/ing-bank/INGenious",
     category: "Tools",
     tags: ["tools"],
     isGithub: true,
   },
   {
-    id: "68",
+    id: "67",
     title: "Checkly",
-    description: "Comprehensive Playwright learning resource with tutorials and best practices from Checkly",
+    description:
+      "Comprehensive Playwright learning resource with tutorials and best practices from Checkly",
     url: "https://www.checklyhq.com/learn/playwright/",
     category: "Blogs",
     tags: ["blogs", "tutorials", "learning"],
   },
-    {
-    id: "69",
+  {
+    id: "68",
     title: "PwAPI Plugin",
-    description: "Playwright Plugin for Comprehensive API Testing and presenting Results in User Friendly Manner.",
+    description:
+      "Playwright Plugin for Comprehensive API Testing and presenting Results in User Friendly Manner.",
     url: "https://github.com/sclavijosuero/pw-api-plugin",
     category: "Tools",
     tags: ["Tools", "API", "Plugin"],
     isGithub: true,
   },
   {
-    id: "70",
+    id: "69",
     title: "Playwrihght Ajv Schema Validator",
-    description: "A Playwright plugin for API schema validation against plain JSON schemas",
+    description:
+      "A Playwright plugin for API schema validation against plain JSON schemas",
     url: "https://github.com/sclavijosuero/playwright-ajv-schema-validator",
     category: "Tools",
     tags: ["Tools", "API", "Plugin"],
     isGithub: true,
   },
   {
-    id: "71",
+    id: "70",
     title: "Playwright Automation Framework",
     description: "A Sample Framework for UI and API with TS",
     url: "https://github.com/TestingMasterDotIn/Playwright_UiAndAPI",
@@ -641,7 +713,7 @@ export const playwrightResources: Resource[] = [
     isGithub: true,
   },
   {
-    id: "72",
+    id: "71",
     title: "Checkly",
     description: "Test and monitor your apps and APIs at scale! ",
     url: "https://www.youtube.com/@ChecklyHQ",
@@ -649,7 +721,7 @@ export const playwrightResources: Resource[] = [
     tags: ["Youtube", "Playwright", "Community"],
   },
   {
-    id: "73",
+    id: "72",
     title: "Playwright",
     description: "Official Playwright YouTube channel",
     url: "https://www.youtube.com/@Playwrightdev",
@@ -658,15 +730,17 @@ export const playwrightResources: Resource[] = [
   },
   {
     //https://www.linkedin.com/learning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios/level-up-your-playwright-skills-complex-scenarios-simplified
-    id: "74",
-    title: "Playwright Essential Training: Abstractions, Fixtures, and Complex Scenarios",
-    description: "Level up your Playwright skills with complex scenarios simplified",
+    id: "73",
+    title:
+      "Playwright Essential Training: Abstractions, Fixtures, and Complex Scenarios",
+    description:
+      "Level up your Playwright skills with complex scenarios simplified",
     url: "https://www.linkedin.com/learning/playwright-essential-training-abstractions-fixtures-and-complex-scenarios/level-up-your-playwright-skills-complex-scenarios-simplified",
     category: "Premium Courses",
-    tags: ["Premium Courses", "Playwright", "Community"], 
+    tags: ["Premium Courses", "Playwright", "Community"],
   },
   {
-    id: "75",
+    id: "74",
     title: "Learning Playwright",
     description: "Unlock the future of test automation with Playwright",
     url: "https://www.linkedin.com/learning/learning-playwright/unlock-the-future-of-test-automation-with-playwright",
@@ -674,23 +748,26 @@ export const playwrightResources: Resource[] = [
     tags: ["Premium Courses", "Playwright", "Community"],
   },
   {
-    id: "76",
-    title: "Playwright Design Patterns",  
-    description: "Learn how to use Playwright design patterns to write better tests",
+    id: "75",
+    title: "Playwright Design Patterns",
+    description:
+      "Learn how to use Playwright design patterns to write better tests",
     url: "https://www.linkedin.com/learning/playwright-design-patterns/welcome",
     category: "Premium Courses",
     tags: ["Premium Courses", "Playwright", "Community"],
   },
   {
-    id: "77",
-    title: "Advanced Playwright Techniques: Optimizing Speed, Stability, and Cloud Testing",
-    description: "Master advanced Playwright techniques for faster, more stable tests and cloud testing",
+    id: "76",
+    title:
+      "Advanced Playwright Techniques: Optimizing Speed, Stability, and Cloud Testing",
+    description:
+      "Master advanced Playwright techniques for faster, more stable tests and cloud testing",
     url: "https://www.linkedin.com/learning/advanced-playwright-techniques-optimimizing-speed-stability-and-cloud-testing/advanced-playwright-techniques",
     category: "Premium Courses",
-    tags: ["Premium Courses", "Playwright", "Community"], 
+    tags: ["Premium Courses", "Playwright", "Community"],
   },
   {
-    id: "78",
+    id: "77",
     title: "Test Shift",
     description: "Automation That Builds. Not Burns",
     url: "https://www.test-shift.com/",
@@ -698,7 +775,7 @@ export const playwrightResources: Resource[] = [
     tags: ["Blogs", "Playwright", "Community"],
   },
   {
-    id: "79",
+    id: "78",
     title: "Playwright Official",
     description: "Official Playwright documentation and resources",
     url: "https://playwright.dev/docs/intro",
@@ -706,15 +783,15 @@ export const playwrightResources: Resource[] = [
     tags: ["Playwright", "Documentation", "Official"],
   },
   {
-    id: "80",
+    id: "79",
     title: "Playwright Samples",
     description: "Official Playwright samples and examples from Microsoft",
     url: "https://learn.microsoft.com/en-us/samples/browse/?products=playwright",
-    category: "Playwright Official",  
+    category: "Playwright Official",
     tags: ["Playwright", "Samples", "Official"],
   },
   {
-    id: "81",
+    id: "80",
     title: "Build with Playwright from Microsoft Learn",
     description: "Learn how to build applications with Playwright",
     url: "https://learn.microsoft.com/en-us/training/modules/build-with-playwright/",
@@ -722,7 +799,7 @@ export const playwrightResources: Resource[] = [
     tags: ["Playwright", "Building", "Official"],
   },
   {
-    id: "82",
+    id: "81",
     title: "Playwright on Dev.to",
     description: "Community-driven articles and tutorials on Playwright",
     url: "https://dev.to/playwright",
@@ -730,45 +807,47 @@ export const playwrightResources: Resource[] = [
     tags: ["Blogs", "Playwright", "Community"],
   },
   {
-    id: "83",
+    id: "82",
     title: "Playwright Discord Community",
-    description: "Join the official Playwright Discord community for discussions, support, and collaboration",
+    description:
+      "Join the official Playwright Discord community for discussions, support, and collaboration",
     url: "https://discord.com/servers/playwright-807756831384403968",
     category: "Playwright Official",
     tags: ["Playwright", "Community", "Discord"],
-
-    
   },
   {
-    id: "84",
+    id: "83",
     title: "Playwright MCP",
-    description: "Playwright MCP (Model-based Conformance Protocol) is a framework for building and running model-based tests with Playwright",
+    description:
+      "Playwright MCP (Model-based Conformance Protocol) is a framework for building and running model-based tests with Playwright",
     url: "https://github.com/microsoft/playwright-mcp",
     category: "AI/MCP",
     tags: ["AI", "MCP", "Playwright"],
     isGithub: true,
   },
   {
-    id: "85",
+    id: "84",
     title: "PW Framework Step By Step",
-    description: "A step-by-step guide to building a Playwright framework with best practices",
+    description:
+      "A step-by-step guide to building a Playwright framework with best practices",
     url: "https://github.com/idavidov13/PW-Framework-Step-By-Step",
     category: "Sample Frameworks",
     tags: ["Sample Frameworks", "Playwright", "Community"],
     isGithub: true,
   },
 
-    {
-    id: "86",
+  {
+    id: "85",
     title: "MCP Playwright By Execute Automation",
-    description: "A framework for building and running model-based tests with Playwright",
+    description:
+      "A framework for building and running model-based tests with Playwright",
     url: "https://github.com/executeautomation/mcp-playwright",
     category: "AI/MCP",
     tags: ["AI", "MCP", "Playwright"],
     isGithub: true,
   },
   {
-    id: "87",
+    id: "86",
     title: "Scrapy Playwright",
     description: "A Scrapy plugin that integrates Playwright for web scraping",
     url: "https://github.com/scrapy-plugins/scrapy-playwright",
@@ -777,9 +856,10 @@ export const playwrightResources: Resource[] = [
     isGithub: true,
   },
   {
-    id: "88",
+    id: "87",
     title: "Playwright Microsoft Teams Reporter",
-    description: "A Playwright reporter that sends test results to Microsoft Teams",
+    description:
+      "A Playwright reporter that sends test results to Microsoft Teams",
     url: "https://github.com/playwright-community/playwright-msteams-reporter",
     category: "Reporters",
     tags: ["Reporters", "Playwright", "Microsoft Teams"],
@@ -787,62 +867,74 @@ export const playwrightResources: Resource[] = [
   },
   {
     //https://github.com/vitalets/playwright-bdd
-    id: "89",
+    id: "88",
     title: "Playwright BDD",
-    description: "BDD testing with Playwright runner and CucumberJS integration",
+    description:
+      "BDD testing with Playwright runner and CucumberJS integration",
     url: "https://github.com/vitalets/playwright-bdd",
     category: "Integrations",
     tags: ["Integrations", "Playwright", "BDD"],
     isGithub: true,
   },
-{
-   
-    id: "90",
+  {
+    id: "89",
     title: "Artem Bondar",
     description: "Playwright with TS by Artem Bondar",
     url: "https://youtube.com/playlist?list=PL4a2-SrtFTviZQZiBiZD3cArnKjSDOMLy&si=YWvVAfWwvxPjFcBZ",
     category: "Youtube Channels",
-    tags: ["Youtube Channels"]
+    tags: ["Youtube Channels"],
   },
   {
-    id: "91",
+    id: "90",
     title: "Elio Struyf",
     description: "Playwright Articles By Elio Struyf",
     url: "https://www.eliostruyf.com/search/?q=playwright",
     category: "Blogs",
-    tags: ["Blogs"]
+    tags: ["Blogs"],
+  },
+  {
+    id: "91",
+    title: "GitHub Actions Reporter",
+    description:
+      "A Playwright reporter for GitHub Actions that creates annotations and summaries",
+    url: "https://www.npmjs.com/package/@estruyf/github-actions-reporter",
+    category: "Reporters",
+    tags: ["Reporters", "GitHub Actions", "CI/CD"],
   },
   {
     id: "92",
-    title: "GitHub Actions Reporter",
-    description: "A Playwright reporter for GitHub Actions that creates annotations and summaries",
-    url: "https://www.npmjs.com/package/@estruyf/github-actions-reporter",
-    category: "Reporters",
-    tags: ["Reporters", "GitHub Actions", "CI/CD"]
-  },
-  {
-    id: "93",
     title: "Playwright Mail Reporter",
     description: "A Playwright reporter that sends test results via email",
     url: "https://www.npmjs.com/package/playwright-mail-reporter",
     category: "Reporters",
-    tags: ["Reporters", "Email", "Notifications"]
+    tags: ["Reporters", "Email", "Notifications"],
+  },
+  {
+    id: "93",
+    title: "Playwright M365 Helpers",
+    description:
+      "Helper utilities for testing Microsoft 365 applications with Playwright",
+    url: "https://www.npmjs.com/package/playwright-m365-helpers",
+    category: "Tools",
+    tags: ["Tools", "Microsoft 365", "Helpers"],
   },
   {
     id: "94",
-    title: "Playwright M365 Helpers",
-    description: "Helper utilities for testing Microsoft 365 applications with Playwright",
-    url: "https://www.npmjs.com/package/playwright-m365-helpers",
+    title: "Playwright Issue Creator",
+    description:
+      "GitHub Action that automatically creates issues based on Playwright test failures",
+    url: "https://github.com/marketplace/actions/playwright-issue-creator",
     category: "Tools",
-    tags: ["Tools", "Microsoft 365", "Helpers"]
+    tags: ["Tools", "GitHub Actions", "Issue Management"],
   },
   {
     id: "95",
-    title: "Playwright Issue Creator",
-    description: "GitHub Action that automatically creates issues based on Playwright test failures",
-    url: "https://github.com/marketplace/actions/playwright-issue-creator",
+    title: "PlayCraft",
+    description:
+      "Visual Playwright IDE with live browser preview and real-time test execution",
+    url: "https://github.com/sudharsan-selvaraj/playcraft",
     category: "Tools",
-    tags: ["Tools", "GitHub Actions", "Issue Management"]
-  }
+    isGithub: true,
+    tags: ["Tools", "IDE", "Playwright"],
+  },
 ];
-
