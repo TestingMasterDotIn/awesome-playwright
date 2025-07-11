@@ -937,4 +937,14 @@ export const playwrightResources: Resource[] = [
     isGithub: true,
     tags: ["Tools", "IDE", "Playwright"],
   },
+    {
+    id: "96",
+    title: "RunWright",
+    description:
+      "A GitHub Action to run Playwright tests optimally and within time limits",
+    url: "https://github.com/PramodKumarYadav/runwright",
+    category: "Tools",
+    isGithub: true,
+    tags: ["Tools", "GitHub Actions", "Playwright"],
+  },
 ];
