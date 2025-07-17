@@ -937,7 +937,7 @@ export const playwrightResources: Resource[] = [
     isGithub: true,
     tags: ["Tools", "IDE", "Playwright"],
   },
-    {
+  {
     id: "96",
     title: "RunWright",
     description:
@@ -946,5 +946,14 @@ export const playwrightResources: Resource[] = [
     category: "Tools",
     isGithub: true,
     tags: ["Tools", "GitHub Actions", "Playwright"],
+  },
+  {
+    id: "97",
+    title: "playwright-tips-tricks",
+    description: "A GitHub Repo that has playwright-tips-tricks",
+    url: "https://github.com/thananauto/playwright-tips-tricks",
+    category: "Sample Frameworks",
+    isGithub: true,
+    tags: ["Sample Frameworks", "Playwright"],
   },
 ];
