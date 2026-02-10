@@ -956,4 +956,48 @@ export const playwrightResources: Resource[] = [
     isGithub: true,
     tags: ["Sample Frameworks", "Playwright"],
   },
+
+  {
+id: "98",
+    title: "AngryTester",
+    description: "Angry Testers Playwright Blog",
+    url: "https://angrytester.com/en/blog",
+    category: "Blogs",
+    isGithub: false,
+    tags: ["Playwright"],
+    
+  },
+    {
+id: "99",
+    title: "testerstories",
+    description: "testerstories Blog",
+    url: "https://testerstories.com/",
+    category: "Blogs",
+    isGithub: false,
+    tags: ["Playwright"],
+    
+  },
+    {
+id: "100",
+    title: "TestDino",
+    description: "Test Reporter",
+    url: "https://testdino.com/",
+    category: "Reporters",
+    isGithub: false,
+    tags: ["Playwright","Reporters"],
+    
+  },
+    {
+id: "101",
+    title: "Athena",
+    description: "Playwright Test Reporter",
+    url: "https://athena-reports.azurewebsites.net/Reports/",
+    category: "Reporters",
+    isGithub: false,
+    tags: ["Playwright","Reporters"],
+    
+  },
+  
+
+  
 ];
