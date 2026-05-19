@@ -25,11 +25,11 @@ const Hero = ({ onExploreResources, onGitHubRepos }: HeroProps) => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-            Awesome Playwright
+            Awesome Playwright AI-QA
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             Your one-stop destination for everything Playwright. Discover tools, resources, 
-            tutorials, and community projects that make web testing awesome.
+            tutorials, and community projects that make QA testing awesome.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
