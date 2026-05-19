@@ -1060,6 +1060,16 @@ id: "101",
     isGithub: true,
     tags: ["AI", "Agentic", "Testing"],
   },
+  {
+    id: "109",
+    title: "AI In QA",
+    description: "AI In QA NewsLetter",
+    url: "https://aiinqa.com/",
+    category: "AI/MCP",
+    isGithub: true,
+    tags: ["AI", "Agentic", "Testing"],
+
+  }
   
 
   
