@@ -1069,8 +1069,15 @@ id: "101",
     isGithub: true,
     tags: ["AI", "Agentic", "Testing"],
 
-  }
-  
-
+  },
+  {
+    id: "110",
+    title: "QA Kickstart",
+    description: "A repository with resources and examples to kickstart your QA journey",
+    url: "https://github.com/rdragosiliescu-qa/QA-Kickstart",
+    category: "AI/MCP",
+    isGithub: true,
+    tags: ["QA", "Testing", "Resources"],
+  },
   
 ];
