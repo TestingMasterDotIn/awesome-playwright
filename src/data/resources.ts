@@ -1079,5 +1079,14 @@ id: "101",
     isGithub: true,
     tags: ["QA", "Testing", "Resources"],
   },
+{
+    id: "111",
+    title: "playsensi",
+    description: "Framework",
+    url: "https://github.com/haricharan-Repository/PlaySensei",
+    category: "Sample Framework",
+    isGithub: true,
+    tags: ["QA", "Testing", "Resources"],
+  },
   
 ];
