@@ -1088,5 +1088,13 @@ id: "101",
     isGithub: true,
     tags: ["QA", "Testing", "Resources"],
   },
-  
+  {
+    id: "112",
+    title: "Agentic Playwright",
+    description: "AI Playwright Framework",
+    url: "https://github.com/idavidov13/agentic-playwright",
+    category: "Sample Framework",
+    isGithub: true,
+    tags: ["QA", "Testing", "Resources"],
+  },
 ];
