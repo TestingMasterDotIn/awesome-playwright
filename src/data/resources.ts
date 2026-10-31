@@ -1097,4 +1097,13 @@ id: "101",
     isGithub: true,
     tags: ["QA", "Testing", "Resources"],
   },
+  {
+    id: "113",
+    title: "agent-qa",
+    description:
+      "QA agent by vostride with a Playwright-based web adapter, CLI/MCP, persistent memidex memory, and validated self-improvement. Also supports Android and iOS testing.",
+    url: "https://www.vostride.com/",
+    category: "AI/MCP",
+    tags: ["AI", "MCP", "Playwright", "Testing", "Memory"],
+  },
 ];
